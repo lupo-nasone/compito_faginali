@@ -1,0 +1,41 @@
+{
+    "nome": "impiantoTest",
+    "latitudine": "latitudine",
+    "longitudine": "longitudine",
+    "rilevatori": [
+        {
+            "id": "umidita",
+            "unitaMisura": "%",
+            "codiceSeriale": "1",
+            "posizione": "terra",
+            "misurazioni": [
+                {
+                    "data": "oggi",
+                    "valore": "99"
+                },
+                {
+                    "data": "oggi",
+                    "valore": "99"
+
+                }
+            ]
+        },
+        {
+            "id": "temperatura",
+            "unitaMisura": "°C",
+            "codiceSeriale": "2",
+            "posizione": "acqua",
+            "misurazioni": [
+                {
+                    "data": "oggi",
+                    "valore": "45"
+                },
+                {
+                    "data": "oggi",
+                    "valore": "50"
+
+                }
+            ]
+        }
+    ]
+}
